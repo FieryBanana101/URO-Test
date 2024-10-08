@@ -1,6 +1,6 @@
 # Battle of Robots game
 
-Pilih antara 4 robot:
+Pilih antara 4 robot:  
 1.) Recon robot  
 2.) Stealth robot  
 3.) Short range robot  
