@@ -47,6 +47,7 @@ class Battle:
         damage = robot1.shortRangeDamage
         if(choice == 2):
             damage = robot1.longRangeDamage
+        time.sleep(0.5)
         print("\nyour robot attacked the enemy...")
         print(f"enemy robot receives {damage} damage")
         robot2.armor -= damage
@@ -54,6 +55,7 @@ class Battle:
             robot2.armor = 0
         print(f"Your armor: {robot1.armor}")
         print(f"Enemy armor: {robot2.armor}\n")
+        time.sleep(1)
         choice = random.randint(1,2)
         damage = robot2.shortRangeDamage
         if(choice == 2):
@@ -65,6 +67,7 @@ class Battle:
         print(f"your robot receives {damage} damage")
         print(f"Your armor: {robot1.armor}")
         print(f"Enemy armor: {robot2.armor}\n")
+        time.sleep(0.5)
         
 
         
