@@ -6,6 +6,9 @@ Untuk Windows, download file "A_star.exe".
 Atau, file "A_star.cpp" dapat dikompilasi secara langsung menggunakan g++
 
 **Deskripsi:**  
+
+(Disclaimer: semua kode dalam proyek ini di tulis oleh saya dan 0% menggunakan bantuan AI)
+
 Dalam aplikasi ini pengguna dapat memilih ukuran grid dari 2x2 hingga 30x30.  
 
 Pengguna dapat bebas memilih lokasi titik awal (source) dan titik akhir (target) dari path yang ingin dicari.
